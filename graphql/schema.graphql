@@ -1,0 +1,9 @@
+type Jaemin {
+  name: String!
+  age: Int!
+  gender: String!
+}
+
+type Query {
+  pserson: Jaemin!
+}
